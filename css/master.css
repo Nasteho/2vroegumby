@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body button {
@@ -34,8 +34,8 @@ header {
 
 nav {
     text-align: center;
-    padding: 0 140px;
     display: flex;
+    padding-left: 30px;
     flex-direction: row;
     align-self: center;
 }
@@ -57,8 +57,8 @@ nav ul li a {
     text-decoration: none;
     padding: 20px;
     color: #000;
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 300;
 }
 
 li a:hover {
@@ -253,12 +253,13 @@ li a:hover {
 }
 
 #slogan {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 200;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 100;
+  font-style: italic;
   font-size: 30px;
   text-align: center;
   color: white;
-  font-style: italic;
+  font-style: ;
 }
 
 .arrow {
@@ -618,19 +619,19 @@ height: 350px;
     text-align: center;
     font-size: 50px;
     color: white;
+    margin-top: 180px;
   }
 
   .index-headline {
-    background-color: rgba(16, 113, 7, 0.6);
     position: absolute;
     font-size: 50px;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
     left: 0;
-    right: 0;
-    top: 30%;
+    top: 0;
+    background-color: rgba(134, 211, 126, 0.7);
+    width: 35%;
+    height: 569px;
 }
+
 
 .news {
   background-color: rgba(16, 113, 7, 0.8);
@@ -956,7 +957,7 @@ form {
 
 /* -------- 5. Footer --------- */
 
-.footer {
+#footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
