@@ -345,10 +345,16 @@ margin-bottom: 50px;
   }
 
   .inner {
+    padding-top: 20px;
     text-align: center;
     width: 80%;
     margin:auto;
+    padding-bottom: 20px;
   }
+
+.inner h1 {
+  font-size: 33px;
+}
 
 .month {
 
@@ -591,6 +597,7 @@ height: 350px;
     margin: auto;
     margin-top: 90px;
     position: relative;
+    background-color: rgba(134, 211, 126, 0.2);
   }
 
   .imageslides {
@@ -897,13 +904,10 @@ form {
 }
 
 #loppe {
-    padding-right: 50px;
     display: block;
 }
 
 .vrogumtekst {
-    padding-top: 70px;
-    padding-left: 60px;
     line-height: 40px;
     text-align: center;
 }
@@ -913,7 +917,6 @@ form {
 }
 
 #salon {
-    padding-right: 50px;
     display: block;
 }
 
@@ -932,8 +935,6 @@ form {
 }
 
 .vrogumtekst2 {
-    padding-top: 70px;
-    padding-left: 60px;
     line-height: 40px;
     text-align: center;
 }
@@ -943,7 +944,6 @@ form {
 }
 
 #mekaniker {
-    padding-right: 50px;
     display: block;
 }
 
@@ -962,8 +962,6 @@ form {
 }
 
 .vrogumtekst3 {
-    padding-top: 70px;
-    padding-left: 60px;
     line-height: 40px;
     text-align: center;
 }
@@ -972,8 +970,12 @@ form {
     color: #5DB255;
 }
 
+.vrogumtekst, .vrogumtekst2, .vrogumtekst3, .vrogumtekst4 {
+  width: 50%;
+  margin:auto;
+}
+
 #soberriget {
-    padding-right: 50px;
     display: block;
 }
 
@@ -992,8 +994,6 @@ form {
 }
 
 .vrogumtekst4 {
-    padding-top: 70px;
-    padding-left: 60px;
     line-height: 40px;
     text-align: center;
 }
@@ -1144,11 +1144,6 @@ footer {
     color: #107107;
 }
 
-
-
-#forside-container {
-  background-color: rgba(134, 211, 126, 0.2);
-}
 
 .nyhed1{
   background-color: white;
