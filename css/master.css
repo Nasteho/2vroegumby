@@ -18,6 +18,7 @@ body a {
   color: white;
 }
 
+
 /* -------- 1. Navigationsbar --------- */
 
 header {
@@ -66,6 +67,12 @@ nav ul li a {
 li a:hover {
     color: #5db255;
 }
+
+nav .current{
+  color: #5db255;
+}
+
+
 
 /* -------- 2. Transport --------- */
 
