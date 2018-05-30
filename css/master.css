@@ -434,6 +434,7 @@ font-size: 20px;
 table {
   margin-top: 25px;
   margin-left: 20px;
+  padding-right: 20px;
 }
 
 .dato:hover {
